@@ -29,7 +29,7 @@
        { 
            int h = height(root); 
            int i; 
-           for (i=1; i<=h; i++) 
+           for (i=1; i<=h; i=i+1) 
                printGivenLevel(root, i); 
        } 
      
